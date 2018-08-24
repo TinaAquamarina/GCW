@@ -16,7 +16,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     background-size: cover;
-    background-image: url("images/resources/00_Stars_1.png");
+    background-image: url("images/resources/s");
     background-repeat: repeat;
     background-size: 40%;
 }
@@ -130,10 +130,10 @@ body {
 
 /* EARTH */
 
-/* @media query mora da sadrzi override za margin-top */
+/* @media query mora da sadrzi override za margin-top ALI OBAVEZNO */
 
 .planet.earth {
-    margin-top: 720px;
+    margin-top: 850px;
 }
 
 /* PULSE EARTH */
@@ -211,6 +211,8 @@ body {
 }
 
 /* PARALLAX */
+
+/* valjalo bi da za iPad i iPhone ipak stoji staticna slika ili da se vidi kako izgleda kada se ukloni top: npx; */
 
 .parallax-container {
 
