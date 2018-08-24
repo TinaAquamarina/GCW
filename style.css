@@ -1,3 +1,8 @@
+html {
+    color: #fff;
+    font-family: "Nunito Sans", sans-serif;
+}
+
 body {
     background-color: black;
     margin: 0;
@@ -12,4 +17,90 @@ body {
     height: 100px;
     display: block;
     margin: auto;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    min-height: 550px;
+}
+
+.planet.mars {
+    position: relative;
+    bottom: -60%;
+    
+}
+
+/* PULSE MARS */
+
+.status.mars {
+    width: 32px;
+    height: 32px;
+    border-radius: 100% 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 83, 45, 1);
+    box-shadow: 0 0 40px rgba(255, 83, 45, 1);
+}
+  
+.pulse.mars {
+    border-radius: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+  
+.pulse.mars:before,
+.pulse.mars:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 83, 45, 0.2);
+    border-radius: 50px;
+    opacity: 0;
+}
+    
+.pulse:before {
+    transform: scale(1);
+    animation: pulse 3s infinite linear;
+      
+}
+    
+.pulse:after {
+    animation: pulse 3s 2s infinite linear;
+}
+  
+  
+@keyframes pulse {
+    0% {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+    33% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1.4);
+      opacity: 0;
+    }
+}
+
+.scroll {
+    position: relative;
+    bottom: -75%;
+    display: block;
+    text-align: center;
 }
