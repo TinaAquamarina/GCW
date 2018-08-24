@@ -1,12 +1,24 @@
 html {
     color: #fff;
     font-family: "Nunito Sans", sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgb(0,27,48);
+    background: -moz-linear-gradient(top, rgba(0,27,48,1) 0%, rgba(9,47,67,1) 11%, rgba(39,86,103,1) 22%, rgba(39,86,103,1) 22%, rgba(107,151,162,1) 42%, rgba(107,151,162,1) 42%, rgba(201,236,238,1) 72%, rgba(201,236,238,1) 99%);
+    background: -webkit-linear-gradient(top, rgba(0,27,48,1) 0%,rgba(9,47,67,1) 11%,rgba(39,86,103,1) 22%,rgba(39,86,103,1) 22%,rgba(107,151,162,1) 42%,rgba(107,151,162,1) 42%,rgba(201,236,238,1) 72%,rgba(201,236,238,1) 99%);
+    background: linear-gradient(to bottom, rgba(0,27,48,1) 0%,rgba(9,47,67,1) 11%,rgba(39,86,103,1) 22%,rgba(39,86,103,1) 22%,rgba(107,151,162,1) 42%,rgba(107,151,162,1) 42%,rgba(201,236,238,1) 72%,rgba(201,236,238,1) 99%);
 }
 
 body {
-    background-color: black;
+
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    background-size: cover;
+    background-image: url("images/resources/00_Stars_1.png");
+    background-repeat: repeat;
+    background-size: 40%;
 }
 
 /* LOGO GCW */
@@ -56,7 +68,6 @@ body {
 .pulse.mars {
     border-radius: 50px;
     line-height: 50px;
-    text-align: center;
     width: 60px;
     height: 60px;
     position: relative;
@@ -122,7 +133,7 @@ body {
 /* @media query mora da sadrzi override za margin-top */
 
 .planet.earth {
-    margin-top: 800px;
+    margin-top: 720px;
 }
 
 /* PULSE EARTH */
@@ -188,4 +199,126 @@ body {
       opacity: 0;
     }
 }
-  
+
+/* TEXT */
+
+.top-text {
+    padding-top: 2em;
+}
+
+#text-3 {
+    padding-top: 2em;
+}
+
+/* PARALLAX */
+
+.parallax-container {
+
+    position: relative;
+    width: 100%;
+    height: 1000px;
+
+}
+
+.object1 {
+    position: absolute;
+    background-image: url(images/parallax/parallax1@2x.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    height: 1000px;
+    top: -520px;
+}
+
+.object2 {
+    position: absolute;
+    background-image: url(images/parallax/parallax2@2x.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    height: 1000px;
+    top: -440px;
+}
+
+.object3 {
+    position: absolute;
+    background-image: url(images/parallax/parallax3@2x.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    height: 1000px;
+    top: -360px;
+}
+
+.object4 {
+    position: absolute;
+    background-image: url(images/parallax/parallax4@2x.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    height: 1000px;
+    top: -320px;
+}
+
+.object5 {
+    position: absolute;
+    background-image: url(images/parallax/parallax5@2x.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    height: 1000px;
+    top: -200px;
+}
+
+.object6 {
+    position: absolute;
+    background-image: url(images/parallax/parallax6@2x.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    height: 1000px;
+    top: -140px;
+}
+
+.object7 {
+    position: absolute;
+    background-image: url(images/parallax/parallax7@2x.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    height: 1000px;
+}
+
+.object8 {
+    position: absolute;
+    background-image: url(images/parallax/parallax8@2x.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    height: 1000px;
+}
+
+
+  .test {
+      height: 1000px;
+      background-color: #264a5e;
+      position: relative;
+      z-index: 1;
+      
+  }
