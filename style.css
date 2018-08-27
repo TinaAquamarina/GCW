@@ -25,6 +25,7 @@ body {
     background-image: url("images/resources/00_Stars_1.png");
     background-repeat: repeat;
     background-size: 40%;
+    
 }
 
 /* LOGO GCW */
@@ -564,4 +565,12 @@ body {
   
 .section.social a {
     text-decoration: none;
+}
+
+/* COPYRIGHT */
+
+.copyright {
+    font-size: 0.8em;
+    padding-top: 24px;
+    padding-bottom: 48px;
 }
