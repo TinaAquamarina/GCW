@@ -11,9 +11,9 @@ html {
     background-size: cover;
     background-color: #98c0c6;
     background: rgb(0,27,48);
-    background: -moz-linear-gradient(top, rgba(0,27,48,1) 0%, rgba(9,47,67,1) 11%, rgba(39,86,103,1) 22%, rgba(39,86,103,1) 22%, rgba(107,151,162,1) 42%, rgba(107,151,162,1) 42%, rgba(201,236,238,1) 72%, rgba(201,236,238,1) 99%);
-    background: -webkit-linear-gradient(top, rgba(0,27,48,1) 0%,rgba(9,47,67,1) 11%,rgba(39,86,103,1) 22%,rgba(39,86,103,1) 22%,rgba(107,151,162,1) 42%,rgba(107,151,162,1) 42%,rgba(201,236,238,1) 72%,rgba(201,236,238,1) 99%);
-    background: linear-gradient(to bottom, rgba(0,27,48,1) 0%,rgba(9,47,67,1) 11%,rgba(39,86,103,1) 22%,rgba(39,86,103,1) 22%,rgba(107,151,162,1) 42%,rgba(107,151,162,1) 42%,rgba(201,236,238,1) 72%,rgba(201,236,238,1) 99%);
+    background: -moz-linear-gradient(180deg, rgba(0,27,48,1) 0%, rgba(9,47,67,1) 5%, rgba(39,86,103,1) 11%, rgba(107,151,162,1) 20%, rgba(164,204,210,1) 33%, rgba(201,236,238,1) 49%, rgba(201,236,238,1) 67%, rgba(201,236,238,1) 85%, rgba(201,236,238,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0,27,48,1) 0%, rgba(9,47,67,1) 5%, rgba(39,86,103,1) 11%, rgba(107,151,162,1) 20%, rgba(164,204,210,1) 33%, rgba(201,236,238,1) 49%, rgba(201,236,238,1) 67%, rgba(201,236,238,1) 85%, rgba(201,236,238,1) 100%);
+    background: linear-gradient(180deg, rgba(0,27,48,1) 0%, rgba(9,47,67,1) 5%, rgba(39,86,103,1) 11%, rgba(107,151,162,1) 20%, rgba(164,204,210,1) 33%, rgba(201,236,238,1) 49%, rgba(201,236,238,1) 67%, rgba(201,236,238,1) 85%, rgba(201,236,238,1) 100%);
 }
 
 body {
@@ -143,7 +143,8 @@ body {
 /* @media query mora da sadrzi override za margin-top ALI OBAVEZNO */
 
 .planet.earth {
-    margin-top: 850px;
+    position: relative;
+    bottom: -100%;
 }
 
 /* PULSE EARTH */
@@ -214,6 +215,7 @@ body {
 
 .top-text {
     padding-top: 2em;
+    margin-top: 850px;
 }
 
 #text-2 {
@@ -565,3 +567,12 @@ body {
 .section.social a {
     text-decoration: none;
 }
+
+/* COPYRIGHT */
+
+.copyright {
+    font-size: 0.8em;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
