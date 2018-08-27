@@ -496,3 +496,12 @@ body {
     background-position-y: 90%;
     background-size: auto 192px;
 }
+
+/* YOUTUBE 2 */
+
+.youtube.container.video {
+    width: 100%;
+    max-width: 800px;
+    padding: 100px 0 140px;
+    margin: auto;
+}
