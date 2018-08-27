@@ -330,7 +330,6 @@ body {
     height: 1000px;
 }
 
-
 .bottom {
     background-color: #194b60;
     position: relative;
@@ -428,4 +427,28 @@ body {
     margin-left: 0%;
     float: right;
     padding-top: 48px;
+  }
+
+  /* DESCRIPTION */
+
+  .divider {
+    height: 2px;
+    width: 120px;
+    background-color: #fff;
+    margin: auto;
+  }
+  
+  .description {
+    padding: 6em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  #text-7 {
+    padding: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    font-size: 1.6em;
+    line-height: 1.6em;
   }
