@@ -505,3 +505,46 @@ body {
     padding: 100px 0 140px;
     margin: auto;
 }
+
+/* BUTTON */
+
+.presskit {
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 1.4em 2.4em 1.3em 2.4em;
+    border: 1px solid #fff;
+    width: 280px;
+    margin: auto;
+    border-radius: 60px;
+    box-shadow: 0px 0px 80px rgba(255, 255, 255, 0.2);
+    opacity: 0.8;
+    transition: 0.3s;
+    color: white;
+    text-decoration: none;
+}
+  
+.presskit:hover {
+    box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.4);
+    opacity: 1;
+}
+  
+.download a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* DEMAGOG STUDIO */
+
+.logo.studio {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: auto;
+}
+  
+.logo.studio img {
+    padding-top: 120px;
+    height: 28px;
+}
