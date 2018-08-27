@@ -384,71 +384,98 @@ body {
 .apple {
     width: 600px;
     margin: 0 auto 40px;
-  }
+}
   
-  .app-store {
+.app-store {
     float: left;
     margin-left: 25%;
-  }
+}
   
-  .itunes {
+.itunes {
     position: relative;
     margin-right: 25%;
     float: right;
-  }
+}
 
-  /* MUSIC LINKS */
+/* MUSIC LINKS */
 
 .section.music {
     width: 480px;
     height: 100px;
     margin: auto;
     clear: both;
-  }
+}
   
-  .link a {
+.link a {
     width: auto;
     height: 32px;
-  }
+}
   
-  .bandcamp {
+.bandcamp {
     float: left;
     margin-left: 0%;
     padding-top: 48px;
-  }
+}
   
-  .spotify {
+.spotify {
     float: left;
     margin-left: 16%;
     padding-top: 48px;
-  }
+}
   
-  .deezer {
+.deezer {
     margin-left: 0%;
     float: right;
     padding-top: 48px;
-  }
+}
 
-  /* DESCRIPTION */
+/* DESCRIPTION */
 
-  .divider {
+.divider {
     height: 2px;
     width: 120px;
     background-color: #fff;
     margin: auto;
-  }
+}
   
-  .description {
+.description {
     padding: 6em;
     text-align: center;
     text-transform: uppercase;
-  }
+}
   
-  #text-7 {
+#text-7 {
     padding: 1.4em;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-weight: 400;
     font-size: 1.6em;
     line-height: 1.6em;
-  }
+}
+
+/* REVIEWS */
+
+.reviews {
+    padding-bottom: 88px;
+}
+  
+.headline {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding-bottom: 56px;
+    letter-spacing: 0.04em;
+}
+  
+.review {
+    padding-bottom: 32px;
+}
+  
+.quote {
+    font-style: italic;
+    padding: 1em;
+}
+  
+.source {
+    font-weight: 600;
+}
