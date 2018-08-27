@@ -479,3 +479,20 @@ body {
 .source {
     font-weight: 600;
 }
+
+/* AWARDS */
+
+.awards {
+    padding-bottom: 32px;
+}
+  
+.award-list {
+    line-height: 2.4em;
+    font-style: italic;
+    padding: 1em;
+    background-image: url("images/resources/laurel.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 90%;
+    background-size: auto 192px;
+}
