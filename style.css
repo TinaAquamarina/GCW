@@ -606,7 +606,7 @@ and (orientation: portrait) {
 
     .top-text {
         margin-top: 500px;
-        padding: 0 2em;
+        padding: 0 3em;
         line-height: 2em;
     }
 
@@ -716,9 +716,11 @@ and (orientation: portrait) {
 and (min-width: 360px)
 and (max-width: 640px)
 and (orientation: portrait)  {
+
     .top-text {
         margin-top: 600px;
     }
+
 }
 
 
@@ -747,7 +749,7 @@ and (orientation: portrait) {
 
     .top-text {
         margin-top: 600px;
-        padding: 0 2em;
+        padding: 0 3em;
         line-height: 2em;
     }
 
@@ -862,7 +864,7 @@ and (orientation : portrait) {
 
     .top-text {
         margin-top: 700px;
-        padding: 0 2em;
+        padding: 0 3em;
         line-height: 2em;
     }
 
@@ -885,12 +887,40 @@ and (orientation: landscape) {
 
     .top-text {
         margin-top: 680px;
-        padding: 0 2em;
+        padding: 0 3em;
         line-height: 2em;
     }
 
     .award-list {
         background-image: none;
+    }
+
+    .description {
+        padding: 6em 3em;
+    }
+
+    #text-7 {
+        padding: 1.4em 0;
+    }
+
+    .text-block {
+        padding: 2em 3em;
+    }
+
+    /* REVIEWS */
+
+    .headline {
+        padding-bottom: 32px;
+    }
+
+    .reviews {
+        padding: 0 3em 90px;
+    }
+
+    /* AWARDS */
+
+    .award-list {
+        padding: 0 3em;
     }
     
 }
@@ -925,7 +955,7 @@ and (orientation: landscape) {
 
     .top-text {
         margin-top: 700px;
-        padding: 0 2em;
+        padding: 0 3em;
         line-height: 2em;
     }
 
@@ -944,7 +974,7 @@ and (min-height: 731px) {
 
     .top-text {
         margin-top: 660px;
-        padding: 0 2em;
+        padding: 0 3em;
         line-height: 2em;
     }
 
@@ -955,7 +985,7 @@ and (min-height: 812px) {
 
     .top-text {
         margin-top: 700px;
-        padding: 0 2em;
+        padding: 0 3em;
         line-height: 2em;
     }
 
@@ -967,7 +997,7 @@ and (orientation: portrait) {
 
     .top-text {
         margin-top: 740px;
-        padding: 0 2em;
+        padding: 0 3em;
         line-height: 2em;
     }
 
@@ -982,6 +1012,25 @@ and (min-height: 768px) {
 
     .top-text {
         margin-top: 720px;
+        padding: 0 3em;
+        line-height: 2em;
+    }
+
+    .award-list {
+        background-size: auto 180px;
+    }
+
+}
+
+@media only screen
+and (min-height: 900px) {
+
+    .logo-gcw {
+        padding-top: 280px;
+    }
+
+    .top-text {
+        margin-top: 1000px;
         padding: 0 2em;
         line-height: 2em;
     }
@@ -1000,7 +1049,7 @@ and (min-height: 1024px) {
     }
 
     .top-text {
-        margin-top: 1000px;
+        margin-top: 900px;
         padding: 0 2em;
         line-height: 2em;
     }
@@ -1020,7 +1069,7 @@ and (min-height: 1366px) {
     }
 
     .top-text {
-        margin-top: 1300px;
+        margin-top: 1150px;
         padding: 0 2em;
         line-height: 2em;
     }
